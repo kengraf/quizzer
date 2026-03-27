@@ -23,7 +23,7 @@ if (!SpeechRecognition) {
 }
 
 const recognition = new SpeechRecognition();
-recognition.lang = "en-US";
+recognition.lang = "de";
 recognition.interimResults = false;
 
 // Show question
